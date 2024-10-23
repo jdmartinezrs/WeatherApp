@@ -12,3 +12,4 @@ Solo asegúrate de reemplazar **Floridablanca** con la ubicación que desees con
 https://api.weatherapi.com/v1/current.json?key=cac8c85072cf4893a3952959242210&q=bucaramanga&lang=es
 ```
 
+https://api.weatherapi.com/v1/forecast.json?key=cac8c85072cf4893a3952959242210&q=leticia&lang=es&days=today

@@ -8,7 +8,7 @@ const TopField = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchWeatherData = async () => {
+    const fetchingWeather = async () => {
       try {
         setLoading(true);
         const response = await fetch(
@@ -26,7 +26,7 @@ const TopField = () => {
       }
     };
 
-    fetchWeatherData(); 
+    fetchingWeather(); 
   }, [City]);
 
   if (loading) return <p className='text-witheY'></p>;
