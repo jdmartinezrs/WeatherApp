@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import IndexPage from './pages/Index';
+import IndexPage from './pages/Indexbody';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
         <Routes>
          
 
-<Route path='/' element={<IndexPage/>}/>
+<Route path='/home' element={<IndexPage/>}/>
 
         </Routes>
       </Router>
